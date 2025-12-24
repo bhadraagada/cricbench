@@ -275,10 +275,10 @@ export default function BenchmarkVisualizer() {
       <header className="relative mx-auto max-w-7xl px-4 pt-6 pb-2">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <SkateboardSVG className="h-10 w-10 stroke-neutral-100" />
-            <div>
-              <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">
-                SkateBench
+             <SkateboardSVG className="h-10 w-10 stroke-neutral-100" />
+             <div>
+               <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">
+                 CricBench
               </h1>
               <p className="mt-1 max-w-prose text-xs text-neutral-300 sm:text-sm">
                 {metadata?.testSuite || "Benchmark"}

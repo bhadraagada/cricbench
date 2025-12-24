@@ -1,4 +1,4 @@
-# skatebench
+# cricbench
 
 To install dependencies:
 

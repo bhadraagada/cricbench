@@ -1,0 +1,29 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:52:45.180Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "deepseek-v3.2-thinking-high",
+  "runNumber": 1,
+  "testIndex": 13,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Good length ball on off stump, batter moves across and scoops the ball over the keeper or fine leg using the pace of the ball.",
+  "answers": [
+    "scoop shot",
+    "scoop",
+    "paddle scoop"
+  ],
+  "negative_answers": [
+    "ramp shot",
+    "uppercut"
+  ],
+  "duration": 48320,
+  "cost": 0.000417134,
+  "completionTokens": 985,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Good length ball on off stump, batter moves across and scoops the ball over the keeper or fine leg using the pace of the ball.\",\"answers\":[\"paddle scoop\",\"scoop\",\"scoop shot\"],\"negative_answers\":[\"ramp shot\",\"uppercut\"]}",
+  "result": {
+    "text": "Ramp shot (commonly referred to as a scoop shot).",
+    "correct": false
+  }
+}

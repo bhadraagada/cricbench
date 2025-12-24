@@ -1,0 +1,105 @@
+{
+  "name": "Cricket Bowling Variations",
+  "description": "Checks if models can correctly name different types of cricket deliveries and bowling variations from descriptions.",
+  "system_prompt": "You are a cricket bowling variation naming assistant. You are given a short description of a cricket delivery, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other deliveries that are not being described.",
+  "tests": [
+    {
+      "prompt": "Fast bowler. Very full ball that lands right at the batter's feet, almost on the popping crease, aimed at the base of middle and leg stump.",
+      "answers": ["yorker"],
+      "negative_answers": ["full toss", "half volley"]
+    },
+    {
+      "prompt": "Fast bowler. Full ball that does not pitch and reaches the batter above the waist on the full.",
+      "answers": ["full toss"],
+      "negative_answers": ["yorker", "bouncer"]
+    },
+    {
+      "prompt": "Fast bowler from over the wicket to a right-hander. Short-pitched delivery that climbs steeply towards the batter's head or chest, forcing them to duck or play a defensive shot.",
+      "answers": ["bouncer"],
+      "negative_answers": ["short ball"]
+    },
+    {
+      "prompt": "Right-arm fast bowler, over the wicket to a right-hander. The ball starts outside off stump and swings further away, drawing the batter into a drive and taking the edge.",
+      "answers": ["outswinger"],
+      "negative_answers": ["inswinger", "reverse swing"]
+    },
+    {
+      "prompt": "Right-arm fast bowler, over the wicket to a right-hander. The ball starts on a fourth-stump line and swings late into the pads and stumps.",
+      "answers": ["inswinger"],
+      "negative_answers": ["outswinger", "reverse swing"]
+    },
+    {
+      "prompt": "Right-arm fast bowler with an older ball. To a right-hander, the ball starts wide outside off stump and then swings late in the opposite direction to conventional swing, back into the batter.",
+      "answers": ["reverse inswinger", "reverse swing inswinger"],
+      "negative_answers": ["inswinger", "outswinger"]
+    },
+    {
+      "prompt": "Right-arm fast bowler with an older ball. To a right-hander, the ball is angled in towards leg stump and then swings late away from the batter towards the slips, opposite to conventional inswing.",
+      "answers": ["reverse outswinger", "reverse swing outswinger"],
+      "negative_answers": ["inswinger", "outswinger"]
+    },
+    {
+      "prompt": "Fast bowler bowls a slower ball by releasing it from the back of the hand with the seam scrambled, causing it to dip and arrive later than expected.",
+      "answers": ["back-of-the-hand slower ball", "back of the hand slower ball", "back of the hand slower"],
+      "negative_answers": ["knuckleball", "off-cutter"]
+    },
+    {
+      "prompt": "Fast bowler delivers a slower ball by digging fingers into the seam so that it comes out of the front of the hand but rolls off the fingers like an off-break.",
+      "answers": ["off-cutter", "off cut"]
+    },
+    {
+      "prompt": "Fast bowler delivers a slower ball that moves away off the pitch like a leg-spinner, rolling off the fingers towards the leg side for a right-hander.",
+      "answers": ["leg-cutter", "leg cut"]
+    },
+    {
+      "prompt": "Fast bowler. Slower ball where the ball is held on the fingertips and released with minimal backspin so it floats and dips, often used at the death.",
+      "answers": ["knuckleball", "knuckle ball"],
+      "negative_answers": ["off-cutter", "back-of-the-hand slower ball"]
+    },
+    {
+      "prompt": "Right-arm leg-spinner to a right-handed batter. The ball pitches outside leg stump and turns sharply across the batter towards off stump, away from the bat.",
+      "answers": ["leg break"],
+      "negative_answers": ["off break", "googly"]
+    },
+    {
+      "prompt": "Right-arm leg-spinner to a right-handed batter. The bowler uses a disguised wrist position so that the ball appears like a normal leg break, but after pitching it turns into the right-hander from off to leg.",
+      "answers": ["googly"],
+      "negative_answers": ["leg break", "top-spinner"]
+    },
+    {
+      "prompt": "Right-arm leg-spinner. The ball is delivered with more overspin, causing it to dip and bounce more, going straight on or only turning slightly after pitching.",
+      "answers": ["top-spinner", "top spinner"],
+      "negative_answers": ["googly", "flipper"]
+    },
+    {
+      "prompt": "Right-arm leg-spinner. The ball is squeezed out from under the fingers with backspin so that it skids low after pitching, often trapping the batter lbw.",
+      "answers": ["flipper"],
+      "negative_answers": ["top-spinner", "googly"]
+    },
+    {
+      "prompt": "Right-arm off-spinner to a right-handed batter. The ball pitches just outside off stump and turns back into the batter towards middle and leg.",
+      "answers": ["off break", "off-spin", "off spin"],
+      "negative_answers": ["doosra", "carrom ball"]
+    },
+    {
+      "prompt": "Right-arm off-spinner to a right-handed batter. The bowler uses a different wrist and finger action so that the ball looks like a normal off break, but after pitching it turns away from the batter like a leg-break.",
+      "answers": ["doosra"],
+      "negative_answers": ["off break", "carrom ball"]
+    },
+    {
+      "prompt": "Right-arm spinner flicks the ball with the middle finger off the front of the hand, producing extra skid and a small amount of turn, often from around the wicket to a right-hander.",
+      "answers": ["carrom ball"],
+      "negative_answers": ["off break", "doosra"]
+    },
+    {
+      "prompt": "Left-arm orthodox spinner to a right-handed batter. The ball pitches outside off stump and turns back into the pads from off to leg.",
+      "answers": ["left-arm orthodox", "left arm orthodox"],
+      "negative_answers": ["left-arm wrist-spin", "chinaman"]
+    },
+    {
+      "prompt": "Left-arm wrist-spinner (chinaman) to a right-handed batter. The ball pitches outside off stump and turns sharply into the batter from off to leg, like a right-arm leg break from the other side.",
+      "answers": ["left-arm wrist-spin", "left arm wrist spin", "chinaman"],
+      "negative_answers": ["left-arm orthodox"]
+    }
+  ]
+}

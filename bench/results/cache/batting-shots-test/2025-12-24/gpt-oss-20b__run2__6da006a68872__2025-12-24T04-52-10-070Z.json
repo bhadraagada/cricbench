@@ -1,0 +1,27 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:52:10.070Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "gpt-oss-20b",
+  "runNumber": 2,
+  "testIndex": 0,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Half-volley on off stump, batter leans forward with a high front elbow and drives the ball along the ground through extra cover.",
+  "answers": [
+    "cover drive"
+  ],
+  "negative_answers": [
+    "square drive",
+    "straight drive"
+  ],
+  "duration": 4026,
+  "cost": 0.00002,
+  "completionTokens": 312,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Half-volley on off stump, batter leans forward with a high front elbow and drives the ball along the ground through extra cover.\",\"answers\":[\"cover drive\"],\"negative_answers\":[\"square drive\",\"straight drive\"]}",
+  "result": {
+    "text": "Off drive – essentially a cover drive (often called an extra‑cover drive).",
+    "correct": true
+  }
+}

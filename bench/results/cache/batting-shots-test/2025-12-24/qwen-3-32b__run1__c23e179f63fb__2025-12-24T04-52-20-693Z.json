@@ -1,0 +1,28 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:52:20.693Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "qwen-3-32b",
+  "runNumber": 1,
+  "testIndex": 3,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Full ball just outside off stump, batter drives it on the up over extra cover, often for six.",
+  "answers": [
+    "lofted cover drive",
+    "inside-out shot"
+  ],
+  "negative_answers": [
+    "straight drive",
+    "on drive"
+  ],
+  "duration": 34437,
+  "cost": 0.00040936,
+  "completionTokens": 1110,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Full ball just outside off stump, batter drives it on the up over extra cover, often for six.\",\"answers\":[\"inside-out shot\",\"lofted cover drive\"],\"negative_answers\":[\"on drive\",\"straight drive\"]}",
+  "result": {
+    "text": "The standard name for this shot is the **cover drive**. If hit with significant elevation and power for a six, it might also be colloquially referred to as a **cosmos drive** in some contexts, but \"cover drive\" is the most common and traditional term.",
+    "correct": false
+  }
+}

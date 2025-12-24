@@ -1,0 +1,28 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:52:33.025Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "deepseek-v3.1",
+  "runNumber": 2,
+  "testIndex": 17,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Full ball on leg stump, batter uses the wrists to flick the ball behind square on the leg side along the ground.",
+  "answers": [
+    "flick",
+    "flick shot"
+  ],
+  "negative_answers": [
+    "leg glance",
+    "on drive"
+  ],
+  "duration": 3618,
+  "cost": 0.00002804,
+  "completionTokens": 4,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Full ball on leg stump, batter uses the wrists to flick the ball behind square on the leg side along the ground.\",\"answers\":[\"flick\",\"flick shot\"],\"negative_answers\":[\"leg glance\",\"on drive\"]}",
+  "result": {
+    "text": "Leg Glance",
+    "correct": false
+  }
+}

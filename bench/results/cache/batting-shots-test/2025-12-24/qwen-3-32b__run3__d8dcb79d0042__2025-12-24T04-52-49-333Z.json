@@ -1,0 +1,28 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:52:49.333Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "qwen-3-32b",
+  "runNumber": 3,
+  "testIndex": 7,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Short ball outside off stump around head height, batter swivels and hits it high and fine towards long leg or fine leg.",
+  "answers": [
+    "hook shot",
+    "hook"
+  ],
+  "negative_answers": [
+    "pull shot",
+    "pull"
+  ],
+  "duration": 3689,
+  "cost": 0.0000981,
+  "completionTokens": 190,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Short ball outside off stump around head height, batter swivels and hits it high and fine towards long leg or fine leg.\",\"answers\":[\"hook\",\"hook shot\"],\"negative_answers\":[\"pull\",\"pull shot\"]}",
+  "result": {
+    "text": "Square cut (or sometimes called a \"swivel cut\") — though in modern terminology, when a right-handed batter plays a short ball outside off stump by swiveling and hitting it high toward fine leg or long leg, it’s most commonly called a **\"pull shot\"** or **\"hook shot\"**, depending on the exact point of contact and direction.\n\n- **Pull Shot**: If the ball is hit straight back toward square leg or mid-wicket (fine leg area), and the batter rotates the hips and swings the bat downwards.\n- **Hook Shot**: Typically played to a high, short ball, with the batter turning their back to the stumps and hooking the ball over the ropes towards fine leg or long leg.\n\nGiven the description — *swivels, hits high and fine towards long leg or fine leg* — this is most accurately called a **hook shot**.\n\n✅ Final Answer: **Hook shot**",
+    "correct": false
+  }
+}

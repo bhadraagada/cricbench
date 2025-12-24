@@ -1,0 +1,27 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:53:01.723Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "gpt-oss-20b",
+  "runNumber": 3,
+  "testIndex": 15,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Short ball outside off stump, batter stays tall and uses a vertical bat to hit it over the slips or backward point using the bowler's pace.",
+  "answers": [
+    "uppercut"
+  ],
+  "negative_answers": [
+    "ramp shot",
+    "cut shot"
+  ],
+  "duration": 4374,
+  "cost": 0.000051592,
+  "completionTokens": 379,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Short ball outside off stump, batter stays tall and uses a vertical bat to hit it over the slips or backward point using the bowler's pace.\",\"answers\":[\"uppercut\"],\"negative_answers\":[\"cut shot\",\"ramp shot\"]}",
+  "result": {
+    "text": "**Back‑foot drive** (a vertical‑bat drive played from the back foot).",
+    "correct": false
+  }
+}

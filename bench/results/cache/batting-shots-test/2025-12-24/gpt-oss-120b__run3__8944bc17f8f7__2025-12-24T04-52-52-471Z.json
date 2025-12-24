@@ -1,0 +1,28 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:52:52.471Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "gpt-oss-120b",
+  "runNumber": 3,
+  "testIndex": 8,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Full ball on middle and leg, batter whips it in the air over midwicket with a big swinging arc, usually in T20 cricket.",
+  "answers": [
+    "slog",
+    "slog shot"
+  ],
+  "negative_answers": [
+    "helicopter shot",
+    "on drive"
+  ],
+  "duration": 4671,
+  "cost": 0.00009415,
+  "completionTokens": 188,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Full ball on middle and leg, batter whips it in the air over midwicket with a big swinging arc, usually in T20 cricket.\",\"answers\":[\"slog\",\"slog shot\"],\"negative_answers\":[\"helicopter shot\",\"on drive\"]}",
+  "result": {
+    "text": "Mid‑wicket slog (also called a mid‑wicket lofted shot).",
+    "correct": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:53:06.316Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "qwen-3-32b",
+  "runNumber": 3,
+  "testIndex": 18,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Full ball on leg stump or just outside, batter glances the ball very fine off the pads towards fine leg.",
+  "answers": [
+    "leg glance",
+    "glance"
+  ],
+  "negative_answers": [
+    "flick",
+    "on drive"
+  ],
+  "duration": 3985,
+  "cost": 0.00082981,
+  "completionTokens": 1346,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Full ball on leg stump or just outside, batter glances the ball very fine off the pads towards fine leg.\",\"answers\":[\"glance\",\"leg glance\"],\"negative_answers\":[\"flick\",\"on drive\"]}",
+  "result": {
+    "text": "The standard name for this shot is the **glance**, often referred to as the **fine leg glance**. If the hands are positioned high and the shot is wristy, it may also be called the **scoop** (or **scooper**), though \"glance\" is the most common term.",
+    "correct": true
+  }
+}

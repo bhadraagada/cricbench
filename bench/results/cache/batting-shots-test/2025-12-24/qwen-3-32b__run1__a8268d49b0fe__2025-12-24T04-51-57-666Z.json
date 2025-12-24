@@ -1,0 +1,27 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:51:57.666Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "qwen-3-32b",
+  "runNumber": 1,
+  "testIndex": 5,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Short of a length outside off stump, batter waits and guides the ball late past the slips towards third man.",
+  "answers": [
+    "late cut"
+  ],
+  "negative_answers": [
+    "square cut",
+    "uppercut"
+  ],
+  "duration": 9861,
+  "cost": 0.0008136,
+  "completionTokens": 1315,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Short of a length outside off stump, batter waits and guides the ball late past the slips towards third man.\",\"answers\":[\"late cut\"],\"negative_answers\":[\"square cut\",\"uppercut\"]}",
+  "result": {
+    "text": "The shot described is a **cut shot**. This technique is used when the ball is bowled wide of off-stump, and the batter guides it down the ground past the slips towards third man. It is a defensive or attacking cross-batted shot often played by right-handed batters.",
+    "correct": false
+  }
+}

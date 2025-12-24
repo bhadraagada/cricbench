@@ -1,0 +1,107 @@
+{
+  "name": "Cricket Batting Shots",
+  "description": "Checks if models can correctly name a wide range of cricket batting shots from natural language descriptions.",
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "tests": [
+    {
+      "prompt": "Right-handed batter. Half-volley on off stump, batter leans forward with a high front elbow and drives the ball along the ground through extra cover.",
+      "answers": ["cover drive"],
+      "negative_answers": ["square drive", "straight drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Good length ball outside off stump, batter leans into it and drives through point with an open face.",
+      "answers": ["square drive"],
+      "negative_answers": ["cover drive", "cut shot"]
+    },
+    {
+      "prompt": "Right-handed batter. Full ball on middle stump, batter plays a classical straight shot past the bowler along the ground.",
+      "answers": ["straight drive"],
+      "negative_answers": ["on drive", "off drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Full ball just outside off stump, batter drives it on the up over extra cover, often for six.",
+      "answers": ["lofted cover drive", "inside-out shot"],
+      "negative_answers": ["straight drive", "on drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Short ball on or outside off stump, batter rocks back and cuts it hard square of the wicket on the off side.",
+      "answers": ["cut shot", "square cut"],
+      "negative_answers": ["late cut", "uppercut"]
+    },
+    {
+      "prompt": "Right-handed batter. Short of a length outside off stump, batter waits and guides the ball late past the slips towards third man.",
+      "answers": ["late cut"],
+      "negative_answers": ["square cut", "uppercut"]
+    },
+    {
+      "prompt": "Right-handed batter. Short ball around chest height on middle stump, batter swivels on the back foot and hits it hard in front of square on the leg side.",
+      "answers": ["pull shot", "pull"],
+      "negative_answers": ["hook shot", "hook"]
+    },
+    {
+      "prompt": "Right-handed batter. Short ball outside off stump around head height, batter swivels and hits it high and fine towards long leg or fine leg.",
+      "answers": ["hook shot", "hook"],
+      "negative_answers": ["pull shot", "pull"]
+    },
+    {
+      "prompt": "Right-handed batter. Full ball on middle and leg, batter whips it in the air over midwicket with a big swinging arc, usually in T20 cricket.",
+      "answers": ["slog", "slog shot"],
+      "negative_answers": ["helicopter shot", "on drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Full ball in the slot on leg stump, batter uses a wristy swing and a helicopter-like follow-through to hit the ball over long-on.",
+      "answers": ["helicopter shot"],
+      "negative_answers": ["slog sweep", "on drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Spinning or slow ball outside off stump, batter gets down on one knee and sweeps it hard in front of square on the leg side.",
+      "answers": ["slog sweep"],
+      "negative_answers": ["sweep shot", "reverse sweep"]
+    },
+    {
+      "prompt": "Right-handed batter. Spinning or medium-paced ball outside off stump, batter gets down on one knee and plays a controlled shot along the ground in front of square on the leg side with a horizontal bat.",
+      "answers": ["sweep shot", "sweep"],
+      "negative_answers": ["slog sweep", "reverse sweep"]
+    },
+    {
+      "prompt": "Right-handed batter. Spinning ball outside off stump, batter gets down on one knee and hits the ball fine on the off side behind point, using the back of the bat to send it where a normal sweep would go on the leg side.",
+      "answers": ["reverse sweep"],
+      "negative_answers": ["sweep shot", "slog sweep"]
+    },
+    {
+      "prompt": "Right-handed batter. Good length ball on off stump, batter moves across and scoops the ball over the keeper or fine leg using the pace of the ball.",
+      "answers": ["scoop shot", "scoop", "paddle scoop"],
+      "negative_answers": ["ramp shot", "uppercut"]
+    },
+    {
+      "prompt": "Right-handed batter. Short of a length ball outside off stump, batter opens the face of the bat late and ramps the ball over the keeper or slip cordon towards third man.",
+      "answers": ["ramp shot", "ramp"],
+      "negative_answers": ["scoop shot", "uppercut"]
+    },
+    {
+      "prompt": "Right-handed batter. Short ball outside off stump, batter stays tall and uses a vertical bat to hit it over the slips or backward point using the bowler's pace.",
+      "answers": ["uppercut"],
+      "negative_answers": ["ramp shot", "cut shot"]
+    },
+    {
+      "prompt": "Right-handed batter. Good length ball on middle stump, batter quickly changes grip and stance to a left-handed position and hits the ball over point or extra cover.",
+      "answers": ["switch hit"],
+      "negative_answers": ["reverse sweep", "slog sweep"]
+    },
+    {
+      "prompt": "Right-handed batter. Full ball on leg stump, batter uses the wrists to flick the ball behind square on the leg side along the ground.",
+      "answers": ["flick", "flick shot"],
+      "negative_answers": ["leg glance", "on drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Full ball on leg stump or just outside, batter glances the ball very fine off the pads towards fine leg.",
+      "answers": ["leg glance", "glance"],
+      "negative_answers": ["flick", "on drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Half-volley on off stump in Test cricket, batter leans forward and drives classically through extra cover along the ground.",
+      "answers": ["classical cover drive", "cover drive"],
+      "negative_answers": ["on drive", "square drive"]
+    }
+  ]
+}

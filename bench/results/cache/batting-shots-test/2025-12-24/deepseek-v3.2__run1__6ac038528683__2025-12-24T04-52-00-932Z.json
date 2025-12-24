@@ -1,0 +1,27 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:52:00.933Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "deepseek-v3.2",
+  "runNumber": 1,
+  "testIndex": 16,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Good length ball on middle stump, batter quickly changes grip and stance to a left-handed position and hits the ball over point or extra cover.",
+  "answers": [
+    "switch hit"
+  ],
+  "negative_answers": [
+    "reverse sweep",
+    "slog sweep"
+  ],
+  "duration": 1365,
+  "cost": 0.00003913,
+  "completionTokens": 3,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Good length ball on middle stump, batter quickly changes grip and stance to a left-handed position and hits the ball over point or extra cover.\",\"answers\":[\"switch hit\"],\"negative_answers\":[\"reverse sweep\",\"slog sweep\"]}",
+  "result": {
+    "text": "Switch Hit",
+    "correct": true
+  }
+}

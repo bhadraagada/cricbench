@@ -1,0 +1,28 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:52:34.121Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "gpt-oss-120b",
+  "runNumber": 2,
+  "testIndex": 19,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Half-volley on off stump in Test cricket, batter leans forward and drives classically through extra cover along the ground.",
+  "answers": [
+    "classical cover drive",
+    "cover drive"
+  ],
+  "negative_answers": [
+    "on drive",
+    "square drive"
+  ],
+  "duration": 1391,
+  "cost": 0.00002708,
+  "completionTokens": 105,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Half-volley on off stump in Test cricket, batter leans forward and drives classically through extra cover along the ground.\",\"answers\":[\"classical cover drive\",\"cover drive\"],\"negative_answers\":[\"on drive\",\"square drive\"]}",
+  "result": {
+    "text": "Cover drive.",
+    "correct": true
+  }
+}

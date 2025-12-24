@@ -1,0 +1,27 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:51:58.481Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "deepseek-v3.1-thinking",
+  "runNumber": 1,
+  "testIndex": 12,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Spinning ball outside off stump, batter gets down on one knee and hits the ball fine on the off side behind point, using the back of the bat to send it where a normal sweep would go on the leg side.",
+  "answers": [
+    "reverse sweep"
+  ],
+  "negative_answers": [
+    "sweep shot",
+    "slog sweep"
+  ],
+  "duration": 3434,
+  "cost": 0.000031776,
+  "completionTokens": 3,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Spinning ball outside off stump, batter gets down on one knee and hits the ball fine on the off side behind point, using the back of the bat to send it where a normal sweep would go on the leg side.\",\"answers\":[\"reverse sweep\"],\"negative_answers\":[\"slog sweep\",\"sweep shot\"]}",
+  "result": {
+    "text": "Reverse Sweep",
+    "correct": true
+  }
+}

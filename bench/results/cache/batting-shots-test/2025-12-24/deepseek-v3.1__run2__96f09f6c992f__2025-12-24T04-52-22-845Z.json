@@ -1,0 +1,28 @@
+{
+  "cacheVersion": 1,
+  "timestamp": "2025-12-24T04:52:22.845Z",
+  "suiteId": "batting-shots-test",
+  "suiteName": "Cricket Batting Shots",
+  "version": "2025-12-24",
+  "model": "deepseek-v3.1",
+  "runNumber": 2,
+  "testIndex": 11,
+  "system_prompt": "You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.",
+  "prompt": "Right-handed batter. Spinning or medium-paced ball outside off stump, batter gets down on one knee and plays a controlled shot along the ground in front of square on the leg side with a horizontal bat.",
+  "answers": [
+    "sweep shot",
+    "sweep"
+  ],
+  "negative_answers": [
+    "slog sweep",
+    "reverse sweep"
+  ],
+  "duration": 1593,
+  "cost": 0.000030048,
+  "completionTokens": 3,
+  "signature": "{\"system_prompt\":\"You are a cricket batting shot naming assistant. You are given a short description of a cricket shot, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots that are not being described.\",\"prompt\":\"Right-handed batter. Spinning or medium-paced ball outside off stump, batter gets down on one knee and plays a controlled shot along the ground in front of square on the leg side with a horizontal bat.\",\"answers\":[\"sweep\",\"sweep shot\"],\"negative_answers\":[\"reverse sweep\",\"slog sweep\"]}",
+  "result": {
+    "text": "Sweep",
+    "correct": true
+  }
+}

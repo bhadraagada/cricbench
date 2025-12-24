@@ -1,0 +1,126 @@
+{
+  "name": "Cricket Shots and Deliveries",
+  "description": "Checks what cricket shots and bowling types different AI models can correctly name from a short description.",
+  "system_prompt": "You are a cricket terminology assistant. You are given a short description of a cricket batting shot or a type of delivery, and you must reply with the standard name used by most modern cricketers and commentators. If there are multiple common names, reply with the most common one or a short list of the most common options. Keep answers concise and to the point, and do not include names of other shots or deliveries that are not being described.",
+  "tests": [
+    {
+      "prompt": "Right-handed batter. Full ball just outside off stump, batter steps forward with a high front elbow and drives the ball along the ground through extra cover.",
+      "answers": ["cover drive"],
+      "negative_answers": ["square drive", "straight drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Short ball around chest height on middle stump, batter swivels on the back foot and hits it hard in front of square on the leg side.",
+      "answers": ["pull shot", "pull"],
+      "negative_answers": ["hook shot", "hook"]
+    },
+    {
+      "prompt": "Right-handed batter. Short ball outside off stump around head height, batter arches the back and helps the ball down to fine leg or long leg.",
+      "answers": ["hook shot", "hook"],
+      "negative_answers": ["pull shot", "pull"]
+    },
+    {
+      "prompt": "Right-handed batter. Good length ball on or just outside off stump, batter stays back and punches it off the back foot square of the wicket on the off side.",
+      "answers": ["back-foot punch", "back foot punch", "back foot drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Full ball on middle and leg, batter leans forward and drives it straight back past the bowler along the ground.",
+      "answers": ["straight drive"],
+      "negative_answers": ["cover drive", "on drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Full ball on middle stump, batter plays a classical shot between mid-on and midwicket, along the ground, with a full face of the bat.",
+      "answers": ["on drive", "mid-on drive"],
+      "negative_answers": ["straight drive", "flick"]
+    },
+    {
+      "prompt": "Right-handed batter. Full ball on leg stump or just outside, batter whips the ball off the pads behind square on the leg side with the wrists.",
+      "answers": ["leg glance", "glance"],
+      "negative_answers": ["flick", "on drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Spinning or medium-paced ball outside off stump, batter gets down on one knee and sweeps it along the ground in front of square on the leg side with a horizontal bat.",
+      "answers": ["sweep shot", "sweep"],
+      "negative_answers": ["reverse sweep", "switch hit"]
+    },
+    {
+      "prompt": "Right-handed batter. Spinning ball outside off stump, batter gets down on one knee and changes stance to hit the ball the opposite way over the off side as if they were left-handed.",
+      "answers": ["switch hit"],
+      "negative_answers": ["reverse sweep", "slog sweep"]
+    },
+    {
+      "prompt": "Right-handed batter. Spinning ball outside off stump, batter gets down on one knee and hits the ball fine on the off side behind point, using the back of the bat to send it where a normal sweep would go on the leg side.",
+      "answers": ["reverse sweep"],
+      "negative_answers": ["sweep shot", "slog sweep"]
+    },
+    {
+      "prompt": "Right-handed batter. Full ball in the slot on middle stump in T20 cricket, batter uses a big wristy swing to hit the ball straight over long-on or midwicket with a helicopter-like follow-through.",
+      "answers": ["helicopter shot"],
+      "negative_answers": ["slog sweep", "on drive"]
+    },
+    {
+      "prompt": "Right-handed batter. Good length ball on off stump, batter shuffles across and scoops the ball over the keeper or fine leg using the pace of the ball.",
+      "answers": ["scoop shot", "scoop", "paddle scoop"],
+      "negative_answers": ["ramp shot"]
+    },
+    {
+      "prompt": "Right-handed batter. Short of a length ball outside off stump, batter opens the face of the bat late and ramps the ball over the keeper or slip cordon towards third man.",
+      "answers": ["ramp shot", "ramp"],
+      "negative_answers": ["scoop shot", "uppercut"]
+    },
+    {
+      "prompt": "Right-handed batter. Short ball outside off stump, batter stays tall and uses a vertical bat to hit it over the slips or backward point using the bowler's pace.",
+      "answers": ["uppercut"],
+      "negative_answers": ["ramp shot", "cut shot"]
+    },
+    {
+      "prompt": "Fast bowler. Very full ball that lands right at the batter's feet, almost on the popping crease, aimed at the base of middle and leg stump.",
+      "answers": ["yorker"],
+      "negative_answers": ["full toss", "half volley"]
+    },
+    {
+      "prompt": "Fast bowler from over the wicket to a right-hander. Short-pitched delivery that climbs steeply towards the batter's head or chest, forcing them to duck or play a defensive shot.",
+      "answers": ["bouncer"],
+      "negative_answers": ["short ball"]
+    },
+    {
+      "prompt": "Right-arm fast bowler, over the wicket to a right-hander. The ball starts outside off stump and swings further away, drawing the batter into a drive and taking the edge.",
+      "answers": ["outswinger"],
+      "negative_answers": ["inswinger", "reverse swing"]
+    },
+    {
+      "prompt": "Right-arm fast bowler, over the wicket to a right-hander. The ball starts on a fourth-stump line and swings late into the pads and stumps.",
+      "answers": ["inswinger"],
+      "negative_answers": ["outswinger", "reverse swing"]
+    },
+    {
+      "prompt": "Right-arm fast bowler. Older ball, bowler angles it wide of off stump to a right-hander, and it swings late in the opposite direction to conventional swing, back into the batter.",
+      "answers": ["reverse inswinger", "reverse swing inswinger"],
+      "negative_answers": ["inswinger", "outswinger"]
+    },
+    {
+      "prompt": "Right-arm leg-spinner to a right-handed batter. The ball pitches outside leg stump and turns sharply across the batter towards off stump, away from the bat.",
+      "answers": ["leg break"],
+      "negative_answers": ["off break", "googly"]
+    },
+    {
+      "prompt": "Right-arm leg-spinner to a right-handed batter. The bowler uses a disguised wrist position so that the ball appears like a normal leg break, but after pitching it turns into the right-hander from off to leg.",
+      "answers": ["googly"],
+      "negative_answers": ["leg break", "top-spinner"]
+    },
+    {
+      "prompt": "Right-arm off-spinner to a right-handed batter. The ball pitches just outside off stump and turns back into the batter towards middle and leg.",
+      "answers": ["off break", "off-spin", "off spin"],
+      "negative_answers": ["doosra", "carrom ball"]
+    },
+    {
+      "prompt": "Right-arm off-spinner to a right-handed batter. The bowler uses a different wrist and finger action so that the ball looks like a normal off break, but after pitching it turns away from the batter like a leg-break.",
+      "answers": ["doosra"],
+      "negative_answers": ["off break", "carrom ball"]
+    },
+    {
+      "prompt": "Right-arm spinner flicks the ball with the middle finger off the front of the hand, producing extra skid and a small amount of turn, often from around the wicket to a right-hander.",
+      "answers": ["carrom ball"],
+      "negative_answers": ["off break", "doosra"]
+    }
+  ]
+}
